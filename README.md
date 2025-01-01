@@ -1,5 +1,8 @@
 ![image](https://github.com/user-attachments/assets/bb58995b-209d-4055-a0bb-f0b36d11933c)# Portfolio Website - Aditya S. Tawde
 
+COPYRIGHT to Cyberfiction for 3D Avatar 
+Inspired by Cyberfiction's award website
+
 🚀 Project Overview
 This is an **interactive portfolio website** designed to showcase my skills, projects, and experience in web development and artificial intelligence. The website is built with **HTML, CSS, and JavaScript** and utilizes smooth scrolling and animations to enhance the user experience.
 
