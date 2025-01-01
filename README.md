@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/bb58995b-209d-4055-a0bb-f0b36d11933c)# Portfolio Website - Aditya S. Tawde
 
-COPYRIGHT to Cyberfiction for 3D Avatar 
+COPYRIGHT to Cyberfiction for 3D Avatar ,  
 Inspired by Cyberfiction's award website
 
 🚀 Project Overview
