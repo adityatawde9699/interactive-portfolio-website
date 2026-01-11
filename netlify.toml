@@ -1,0 +1,31 @@
+# Netlify Configuration for Portfolio V2
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Base directory - the folder containing the project
+  base = "portfolio-v2"
+  # Build command
+  command = "npm run build"
+  # Directory to publish (relative to base)
+  publish = "dist"
+
+[build.environment]
+  # Node.js version
+  NODE_VERSION = "20"
+
+# SPA redirect - all routes go to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache static assets for better performance
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/frames/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
