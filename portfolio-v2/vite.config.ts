@@ -5,13 +5,15 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
+    // Base path for GitHub Pages deployment
+    // Uses env variable in CI, defaults to '/' for local dev
+    base: process.env.VITE_BASE_URL || '/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
         },
     },
     build: {
-        // Use esbuild for minification (default and faster than terser)
         minify: 'esbuild',
         sourcemap: false,
         rollupOptions: {
